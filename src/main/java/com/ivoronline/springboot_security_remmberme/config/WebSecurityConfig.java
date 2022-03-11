@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 @Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor
-public class SecurityConfig extends WebSecurityConfigurerAdapter {
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
   //PROPERTIES
   private final UserDetailsService userDetailsService;

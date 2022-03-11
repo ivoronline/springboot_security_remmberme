@@ -1,6 +1,5 @@
 package com.ivoronline.springboot_security_remmberme.config;
 
-
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
